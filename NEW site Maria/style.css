@@ -1,0 +1,194 @@
+.phonetext {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.main-title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.main-subtitle {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.main-button {
+    color: #1E2E3D;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-block {
+    background: url(./images/Background.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(./images/Background.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    height: 80px;
+    align-items: center;
+    gap: 20px;
+    padding-right: 180px;
+}
+
+
+.main-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 206px 20px 0;
+
+}
+
+.main-button {
+    color: black;
+    font: 700 15px/18px "Montserrat", sans-serif;
+    padding: 26px 22px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+
+.about-me-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.section-title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title-text {
+    font: 600 37px/45px "Montserrat", sans-serif;
+    color: black;
+}
+
+.underline-block {
+    width: 110px;
+    height:3px ;
+    margin-top: 15px;
+    background-color: black;
+}
+
+.person-info-block {
+    max-width: 1380px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 97px;
+    margin: 90px 20px;
+}
+
+.person-info-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.person-info-text {
+    font: 400 25px/30px "Montserrat", sans-serif;
+    color: black;
+}
+
+.footer {
+    background-color: #1E2E3D;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.footer-text-block {
+    margin-top: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.footer-title {
+    color: #FFF;
+    font: 600 35px/43px "Montserrat", sans-serif;
+}
+
+.footer-text {
+    color: #FFF;
+    font: 400 20px/24px "Montserrat", sans-serif;
+}
+
+.footer-icons {
+    display: flex;
+    margin-top: 27px;
+    gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .person-info-block {
+        flex-direction: column;
+    }
+    .phone-text {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main.title {
+        font-size: 60px;
+    }
+    .main-subtitle {
+        font-size: 20px;
+    }
+    .section-title-text {
+        font-size: 30px;
+    }
+    .person-info-text {
+        font-size: 18px;
+    }
+    .footer-title {
+        font-size: 30px;
+    }
+    .footer-text {
+        font-size: 15px;
+    }
+    
+}
